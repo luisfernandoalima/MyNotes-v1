@@ -37,13 +37,13 @@ header nav a {
 }
 
 footer {
-  font-size: 1.2em;
+  font-size: 1.1em;
   background-color: #10454f;
   padding: 10px 15px;
 }
 footer p {
   color: #fff;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 footer p a {
   color: #fff;
@@ -62,7 +62,7 @@ footer .contact-area {
 }
 footer .contact-area i {
   color: #fff;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
