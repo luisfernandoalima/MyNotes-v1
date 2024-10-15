@@ -23,11 +23,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Arquivos estáticos
-app.use(express.static("public"));
+app.use(express.static(__dirname + "/public"));
 
 // Rotas
 const routes = require("./routes/routes");
-app.use('/', routes)
+app.use("/", routes);
 
 // Servidor
 app.listen(port, () => {
