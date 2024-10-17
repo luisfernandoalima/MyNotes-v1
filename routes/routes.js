@@ -30,4 +30,12 @@ router.post("/add", (req, res) => {
     });
 });
 
+router.get("/delete/:id", (req, res) => {
+  Posts.destroy({where: {id: req.params.id}}).then(()=>{
+    res.redirect("/")
+  }).catch((err)=>{
+    res.send(err)
+  })
+});
+
 module.exports = router;
