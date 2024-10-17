@@ -8,15 +8,15 @@ O projeto é um sistema que o usuário pode cadastrar uma nota em um banco de da
 
 ## Tecnologias utilizadas
 
--HTML;
+- HTML;
 
--CSS;
+- CSS;
 
--SASS;
+- SASS;
 
--JavaScript;
+- JavaScript;
 
--Node.JS.
+- Node.JS.
 
 - MySQL
 
