@@ -71,17 +71,4 @@ form input[type=reset]:hover {
   background-color: #f50404;
 }
 
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
 /*# sourceMappingURL=cad.css.map */

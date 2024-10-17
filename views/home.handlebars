@@ -1,16 +1,16 @@
-<main>
-  <h2>Página inicial</h2>
-  <div class="post-area">
+<h2>Página Inicial</h2>
+<div class="post-area">
+  {{#each posts}}
     <div class="post-card">
-
       <div class="post-header">
         <div class="post-title">
           <h3>{{titulo}}</h3>
-          <h4>{{data}}</h4>
         </div>
-        <i class="fa-solid fa-trash"></i>
+        <a href=""><i class="fa-solid fa-trash"></i></a>
       </div>
-
+      <div class="post-body">
+        <p>{{conteudo}}</p>
+      </div>
     </div>
-  </div>
-</main>
+  {{/each}}
+</div>

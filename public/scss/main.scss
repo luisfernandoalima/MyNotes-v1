@@ -5,8 +5,20 @@
   margin: 0px;
 }
 
-body {
+html, body {
+  height: 100%;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
   background-color: $cinza3;
+
+}
+
+main {
+  flex: 1;
 }
 
 header {
@@ -36,7 +48,7 @@ header {
 footer {
   font-size: 1.1em;
   background-color: $azul1;
-  padding: 10px 15px;
+  padding: 5px 15px;
   p {
     color: #fff;
     padding-bottom: 3px;
@@ -47,15 +59,6 @@ footer {
       &:hover {
         text-decoration: underline;
       }
-    }
-  }
-
-  .contact-area {
-    @include flex(center, space-between, row);
-    width: 100px;
-    i {
-      color: #fff;
-      font-size: 2em;
     }
   }
 }
