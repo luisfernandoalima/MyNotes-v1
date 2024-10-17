@@ -6,24 +6,47 @@ O projeto é um sistema de recados criado para colocar em prática meus conhecim
 
 ## Tecnologias utilizadas
 
+-HTML;
+
+-CSS;
+
+-SASS;
+
+-JavaScript;
+
+-Node.JS.
+
+- MySQL
+
+### Módulos utilizados
+
+- Express;
+
+- Handlebars;
+
+- Body Parser;
+
+- Sequelize;
+
+- MySQL2.
 
 ## Organização
 
 /MyNotes-v1
 
-__/models
+__/models   #Paste de módulos
 
-__node_modules
+__/node_modules   #Pasta do Node.JS
 
-__/public
+__/public   #Arquivos estáticos (CSS, SCSS)
 
-____/css    
+______/css    
 
-____/scss
+______/scss
 
-__/routes
+__/routes   #Definição das rotas do sistema
 
-__/views
+__/views    # Templates Handlebars
 
-____/layouts
+______/layouts
 
